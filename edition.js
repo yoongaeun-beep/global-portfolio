@@ -6,8 +6,8 @@ window.SITE_EDITION = {
   id: "global",
   hero: {
     line: {
-      ko: "해외 방문 고객 *연 100팀 이상*을 맞이하고,\n이틀 걸리던 일을 *AI로 3시간*에 끝냅니다",
-      en: "Hosted *100+ overseas customer visits a year*,\nand cut two days of work to *3 hours with AI*"
+      ko: "영문 연구소 투어를 신설해 *해외 고객 방문을 연 100팀 이상*으로 늘렸고,\n최대 이틀 걸리던 정리를 *VBA와 AI로 3시간*에 끝냅니다",
+      en: "Launched English R&D tours that grew overseas visits to *100+ teams a year*,\nand cut up-to-two-day sorting to *3 hours with VBA and AI*"
     },
     sub: {
       ko: "B2B 제조사에서 2년간 해외 고객 응대와 해외 시장 조사를 맡았고, LS Jump Up에서 제조 데이터로 AI 프로젝트를 만들었습니다.",
@@ -53,7 +53,7 @@ window.SITE_EDITION = {
     ]
   },
   reframe: ["note-market-toolkit", "note-harness", "note-workflow-app", "note-auto-collect", "note-recruiter"],
-  projectOrder: ["voicefishing", "predictive-maintenance", "pharmaflow"],
+  projectOrder: ["predictive-maintenance", "pharmaflow", "voicefishing"],
   // AI를 어떻게 쓰는지 한 줄(첫 화면). 근거: 코스맥스 자동화의 표본 대조, PharmaFlow AI 도우미의 숫자 재검사
   aiRule: {
     ko: "AI가 만든 결과는 원문 표본과 대조해 확인하고, 숫자와 최종 판단은 제가 정합니다.",
@@ -64,14 +64,14 @@ window.SITE_EDITION = {
   ui: {
     ko: {
       "kicker": "GLOBAL BUSINESS & AI", "title": "윤가은 포트폴리오 (해외영업, 사업기획)",
-      "nav.about.n": "01 소개", "nav.reframe.n": "02 기획 방식", "nav.projects.n": "03 AI 프로젝트", "nav.journey.n": "04 LS 여정", "nav.experience.n2": "05 경력과 학력", "nav.timeline.n": "06 걸어온 길",
-      "nav.activities.n": "07 대외활동과 연구", "nav.training.n": "08 교육과 어학", "nav.contact.n": "09 연락",
+      "nav.about.n": "01 소개", "nav.reframe.n": "05 기획 방식", "nav.projects.n": "03 AI 프로젝트", "nav.journey.n": "04 LS 여정", "nav.experience.n2": "02 경력과 학력", "nav.timeline.n": "07 걸어온 길",
+      "nav.activities.n": "08 대외활동", "nav.activities": "대외활동", "nav.training.n": "06 교육과 어학", "nav.contact.n": "09 연락",
       "nav.projects": "AI 프로젝트", "nav.training": "교육과 어학"
     },
     en: {
       "kicker": "GLOBAL BUSINESS & AI", "title": "Gaeun Yoon, Portfolio (Global Business)",
-      "nav.about.n": "01 About", "nav.reframe.n": "02 How I plan", "nav.projects.n": "03 AI projects", "nav.journey.n": "04 LS journey", "nav.experience.n2": "05 Experience & education", "nav.timeline.n": "06 Timeline",
-      "nav.activities.n": "07 Activities & research", "nav.training.n": "08 Training & languages", "nav.contact.n": "09 Contact",
+      "nav.about.n": "01 About", "nav.reframe.n": "05 How I plan", "nav.projects.n": "03 AI projects", "nav.journey.n": "04 LS journey", "nav.experience.n2": "02 Experience & education", "nav.timeline.n": "07 Timeline",
+      "nav.activities.n": "08 Activities", "nav.activities": "Activities", "nav.training.n": "06 Training & languages", "nav.contact.n": "09 Contact",
       "nav.projects": "AI projects", "nav.training": "Training"
     }
   }
